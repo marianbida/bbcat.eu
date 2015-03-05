@@ -1,0 +1,27 @@
+directoryIndex app.php
+
+<Files .htaccess>
+deny from all
+</Files>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.bbcat\.eu$
+RewriteRule (.*) http://bbcat\.eu/$1 [L,R=301]
+
+RewriteRule	captcha.jpg			/CaptchaSecurityImages.php	[L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 ^(api|epay|payment|paypal|view|autoload|map|publish|about|contacts|search|getcontent|tag|ref|rentacar|proc|city|hotel|country|brochure|rent-a-car|hotels|flights|search|careers|privacy|captcha|ru|en|bg|de|ro|he|fr|poll|parse|card|comment_add|comment|newsletter_signup|promo|password_recovery|faq|advice|partners|recovery|tiny_register|register|item|contactus|service|aboutus|terms|profile|news|login|logout|tiny_login|guarantyconditions|sitemap|sitemap_xml)
+RewriteRule ^(.*)$ app.php?req=$1			[QSA]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+ErrorDocument 404 /app.php
+</IfModule>
+
+<IfModule mod_security.c>
+SecFilterScanPOST Off
+</IfModule>

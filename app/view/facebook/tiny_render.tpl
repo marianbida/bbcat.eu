@@ -1,0 +1,3 @@
+<div class="padding_2" style="background:#fff url(/images/back_180_60.jpg) top left no-repeat;padding:2px;padding-left:4px;margin-top:2px">
+	<a href="http://www.facebook.com/pages/Vileks-Auto-Magazin-za-avtochasti-za-Fiat-Alfa-Romeo-Lanchia-Iveko/208184896795" title="" target="_TOP"><img alt="" src="http://badge.facebook.com/badge/208184896795.3288.801547229.png" width="120" height="149" style="border: 0px;" /></a>
+</div>

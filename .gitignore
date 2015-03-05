@@ -1,1 +1,6 @@
-
+.ftpquota
+nbproject/
+php_errorlog
+app/conf/db.php
+cms
+app/cache/view_c

@@ -1,0 +1,85 @@
+body {margin: 5% 12%;background:#fff url(./back1.gif)}
+body, td {font-family: Arial; font-size: 12px; color: #666}
+h1 {font-size:22px;color:#669;padding-bottom:0;font-family: "Droid Sans",arial,serif;font-weight: normal}
+h2 {font-size:18px;color:#669;padding-bottom:0;font-family: "Droid Sans",arial,serif;font-weight: normal}
+h3 {font-family: "Droid Sans",arial,serif;font-weight: normal; margin-top: 10px; margin-left: 10px;}
+a:link {color: #438fd1}
+a:visited {color: #438fd1}
+a:hover {color: #438fd1}
+form {margin: 0px}
+input {width: 350px; font-family: Arial; font-size: 12px; color: #666; background: white; padding: 1px 3px 0px; margin-right: 10px}
+select {width: 300px; font-family: Arial; font-size: 12px; color: #666; margin: 1px 0px; margin-right: 10px}
+textarea {width: 300px; height: 70px; font-family: Arial; font-size: 12px; color: #666666; padding: 1px 3px 0px; margin-right: 10px}
+p {margin-top: 15px}
+p.error {margin-top: 15px; color: red;}
+hr {height: 1px; color: #ddd; margin: 10px 0px}
+.button {width: auto; background: #ddd}
+/* */
+div#wrap{
+	width:1024px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto
+}
+ul.footNav{ list-style-type:none}
+.footNav li{ display:inline }
+label{ display:block;margin:2px }
+form.search{ margin:0;padding:10px}
+div#search{ text-align:right }
+.odd {
+	background: #DDE2E8
+}
+.even{
+	background: #FFF
+}
+.lists ul li a {
+    color: #B1B0B0;
+    text-decoration: none;
+   
+}
+
+.ui_facebook, .ui_twitter, .ui_feed, .ui_linkedin, .ui_google, .ui_myspace, .ui_yahoo, .ui_livespace, .ui_svejo {
+    padding: 1px 0 0 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.ui_facebook {
+    
+    background: url("../images/facebook.jpg") no-repeat scroll 0 0 transparent;
+}
+#fly_adv {
+    background: url("../images/box_1_blue.png") repeat-x scroll 0 0 transparent;
+    bottom: 0;
+    height: 34px;
+    padding-left: 10px;
+    position: fixed;
+    right: 8px;
+    width: 238px !important;
+}
+.lists ul li {
+    color: #B1B0B0;
+    float: left;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0 18px 0 0;
+}
+element.style {
+    bottom: 34px;
+    display: block;
+    position: fixed;
+}
+#facebook_fly {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: 34px;
+    display: none;
+    height: 252px;
+    padding: 4px;
+    position: fixed;
+    right: 8px;
+    width: 240px !important;
+}
+.lists {
+    overflow: hidden;
+    width: 100%;
+}

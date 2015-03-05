@@ -1,0 +1,37 @@
+<div style="background:#fff" style="border:1px solid #fff;padding-bottom:2px">
+	{*<!-- left -->
+	<div class="f_left width_200">
+		{include file="category/left_menu_list.tpl"}
+	</div>*}
+	<!-- end of left -->
+	<div class="f_left margin_2 padding_2" style="background:#fff;width:654px;width:777px;width:648px;width:777px">
+		<div style="padding-left:60px">
+			<h1>{$meta->page_title}</h1>
+			{$meta->page_content}
+			<h1 class="p_h_search">{$lang.ads.search}</h1>
+			<div style="margin:4px">
+				<div id="search_form_wrap">
+					{include file="ad/search_form.tpl"}
+				</div>
+				<span class="clearfix"></span>
+			</div>
+			<br clear="all" />
+			<div class="pager">{$pagination}</div>
+			{include file="ad/results.tpl"}
+			<div class="pager">{$pagination}</div>
+		</div>
+	</div>
+	<!-- right -->
+	<div class="p_right" style="width:308px;width:180px">
+		{include file="card/tiny_render.tpl"}
+		{include file="newsletter/tiny_render.tpl"}
+		{include file="social/tiny_render.tpl"}
+		{include file="facebook/tiny_render.tpl"}
+		<div class="padding_2" style="background:#fff url(/images/back_180_60.jpg) top left no-repeat;padding:2px;padding-left:4px;margin-top:2px">
+			{include file="poll/tiny_render.tpl" data=$current_poll}
+		</div>
+	</div>
+	<!-- end of right -->
+	
+	<span class="clearfix"></span>
+</div>

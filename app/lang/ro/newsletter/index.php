@@ -1,0 +1,24 @@
+<?php
+$_['newsletter']['name'] = "Nume, Prenume";
+$_['newsletter']['email'] = "adresa de e-mail";
+$_['newsletter']['title'] = "Titlu";
+$_['newsletter']['action'] = "Activităţi";
+$_['newsletter']['letters'] = "Scrisori";
+$_['newsletter']['new'] = "Scrisoare nouă";
+$_['newsletter']['template']		=	"Şablon";
+$_['newsletter']['type']			=	"Fel";
+$_['newsletter']['address']			=	"Adresa web";
+$_['newsletter']['content']			=	"Conţinut";
+$_['newsletter']['newsletter']		=	"Buletin electronic";
+$_['newsletter']['subscribe']		=	"Trimite";
+$_['newsletter']['subscribe_now']	=	"Ţine pas cu tendinţele, abonează-te acum, primeşte noutăţi şi oferte.";
+$_['newsletter']['captcha']			=	"cod spam";
+$_['newsletter']['signup']			=	"Abonează-te";
+$_['newsletter']['signup_success']	=	"V-aţi abonat cu succes la buletinul nostru electronic.";
+$_['newsletter']['tac']				=	"Da, am citit şi sunt de acord cu condiţiile generale.";
+$_['v']['last_name'] = "Va rugăm, completaţi numele Dvs.";
+$_['v']['phone'] = "Va rugăm, completaţi numărul Dvs. de telefon";
+$_['v']['city'] = "Vă rugăm, selectaţi oraş sau zona";
+$_['v']['address'] = "Va rugăm, completaţi adresa Dvs.";
+$_['v']['name_empty'] = "Va rugăm, completaţi nume";
+$_['v']['captcha_empty'] = "Va rugăm, completaţi codul spam valabil";$_['v']['check_terms'] = "Vă rugăm, bifaţi că sunteţi informaţi si acceptaţi condiţiile de folosire.";$_['v']['already_signed'] = "Adresa de e-mail menţionată este deja existentă în sistem";$_['v']['email_empty'] = "Va rugăm, completaţi adresa de e-mail";$_['v']['email_not_valid'] = "Va rugăm, completaţi adresa de e-mail valabilă";
